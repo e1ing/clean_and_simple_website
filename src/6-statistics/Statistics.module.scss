@@ -1,0 +1,38 @@
+
+.statistics {
+  width: 1441px;
+  height: 342px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+
+  .customers {
+    width: 720px;
+    height: 342px;
+    color: #FFFFFF;
+    background: #6888FF;
+  }
+
+  .users {
+    width: 1440px;
+    height: 342px;
+    color: #5E80FF;
+    background: #E9EFFF;
+  }
+
+  .counter {
+    font-family: Quicksand;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 83px;
+  }
+  .description {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
