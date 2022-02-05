@@ -6,6 +6,7 @@ import {Triggers} from "./3-triggers/Triggers";
 import {Presentation} from "./4-presentation/Presentation";
 import { Features } from './5-features/Features';
 import {Statistics} from "./6-statistics/Statistics";
+import {Blog} from "./7-blog/Blog";
 
 function App() {
     return (
@@ -16,8 +17,8 @@ function App() {
             <Presentation/>
             <Features/>
             <Statistics/>
-            {/*  <Blog/>
-        <Testimonials/>
+             <Blog/>
+            {/*<Testimonials/>
         <FAQ/>
         <Pricing/>
         <Subscription/>
