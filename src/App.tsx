@@ -9,6 +9,7 @@ import {Statistics} from "./6-statistics/Statistics";
 import {Blog} from "./7-blog/Blog";
 import {Testimonials} from "./8-testimonials/Testimonials";
 import { FAQ } from './9-FAQ/FAQ';
+import {Pricing} from "./10-pricing/Pricing";
 
 function App() {
     return (
@@ -22,8 +23,8 @@ function App() {
              <Blog/>
            <Testimonials/>
             <FAQ/>
-            {/*<Pricing/>
-        <Subscription/>
+           <Pricing/>
+            {/*<Subscription/>
         <Footer/>*/}
         </>
     );

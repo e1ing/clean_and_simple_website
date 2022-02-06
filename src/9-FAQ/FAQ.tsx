@@ -10,7 +10,7 @@ export const FAQ = () => {
                 <h2 className={cs.mainText}>Frequently asked questions</h2>
             </div>
 
-            <Accordion defaultActiveKey={['0']} alwaysOpen>
+            <Accordion defaultActiveKey={['2']} alwaysOpen>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Reque insolens in vel?</Accordion.Header>
                     <Accordion.Body>
