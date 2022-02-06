@@ -1,5 +1,6 @@
 
 .containerBlock {
+  height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,7 +17,7 @@
       text-align: center;
       cursor: pointer;
       color: #B6BAC7;
-      padding-right: 30px
+      padding-right: 30px;
     }
 
   }

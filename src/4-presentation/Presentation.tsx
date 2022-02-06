@@ -5,6 +5,7 @@ import cs from "../0-common/styles/textStyles.module.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPlay} from "@fortawesome/free-solid-svg-icons/faPlay";
 import {Button} from "react-bootstrap";
+import Image from 'react-bootstrap/Image';
 
 export const Presentation = () => {
     return (
@@ -18,7 +19,7 @@ export const Presentation = () => {
                     Mea ex malis mollis oporteat. Eum an expetenda consequat.</p>
 
                 <div>
-                    <Button >
+                    <Button>
                         View video
                         <span style={{left: "10px"}}> <FontAwesomeIcon icon={faPlay}/></span>
                     </Button>
@@ -28,10 +29,7 @@ export const Presentation = () => {
 
                 </div>
             </div>
-
-            <div className={s.pictBlock}>
-                <img src={crossApp}/>
-            </div>
+            <Image src={crossApp}/>
         </div>
     )
 }
