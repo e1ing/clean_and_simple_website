@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/clean_and_simple_website/static/css/main.f4401a10.css",
-    "main.js": "/clean_and_simple_website/static/js/main.a43df506.js",
+    "main.css": "/clean_and_simple_website/static/css/main.518d9255.css",
+    "main.js": "/clean_and_simple_website/static/js/main.09ef6c7b.js",
     "static/js/787.c765b3bc.chunk.js": "/clean_and_simple_website/static/js/787.c765b3bc.chunk.js",
     "static/media/crossApp.png": "/clean_and_simple_website/static/media/crossApp.a7ab7caaab168c76853f.png",
     "static/media/rectangle_1.png": "/clean_and_simple_website/static/media/rectangle_1.cdc84c99fb6ea0c4e8d4.png",
     "static/media/rectangle_2.png": "/clean_and_simple_website/static/media/rectangle_2.3172ce9eb2325d9d2a56.png",
     "static/media/rectangle_3.png": "/clean_and_simple_website/static/media/rectangle_3.be59b0d110652b34e068.png",
     "index.html": "/clean_and_simple_website/index.html",
-    "main.f4401a10.css.map": "/clean_and_simple_website/static/css/main.f4401a10.css.map",
-    "main.a43df506.js.map": "/clean_and_simple_website/static/js/main.a43df506.js.map",
+    "main.518d9255.css.map": "/clean_and_simple_website/static/css/main.518d9255.css.map",
+    "main.09ef6c7b.js.map": "/clean_and_simple_website/static/js/main.09ef6c7b.js.map",
     "787.c765b3bc.chunk.js.map": "/clean_and_simple_website/static/js/787.c765b3bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4401a10.css",
-    "static/js/main.a43df506.js"
+    "static/css/main.518d9255.css",
+    "static/js/main.09ef6c7b.js"
   ]
 }
