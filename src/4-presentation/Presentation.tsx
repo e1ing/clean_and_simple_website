@@ -4,6 +4,7 @@ import crossApp from "../0-common/pict/crossApp.png";
 import cs from "../0-common/styles/textStyles.module.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPlay} from "@fortawesome/free-solid-svg-icons/faPlay";
+import {Button} from "react-bootstrap";
 
 export const Presentation = () => {
     return (
@@ -17,13 +18,14 @@ export const Presentation = () => {
                     Mea ex malis mollis oporteat. Eum an expetenda consequat.</p>
 
                 <div>
-                    <button className={s.buttonStyle}>
+                    <Button >
                         View video
                         <span style={{left: "10px"}}> <FontAwesomeIcon icon={faPlay}/></span>
-                    </button>
-                    <button className={s.secondButtonStyle}>
+                    </Button>
+                    <Button variant="outline-secondary">
                         See features
-                    </button>
+                    </Button>{' '}
+
                 </div>
             </div>
 

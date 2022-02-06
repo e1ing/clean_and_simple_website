@@ -10,7 +10,7 @@ import {faUpload} from "@fortawesome/free-solid-svg-icons/faUpload";
 export const Features = () => {
     return (
         <div className={s.features}>
-            <div className={s.textBlock}>
+            <div>
                 <p className={cs.preliminaryText}>ABOUT US</p>
                 <h2 className={cs.mainText}>Read about our app</h2>
             </div>

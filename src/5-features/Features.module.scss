@@ -7,15 +7,14 @@
   justify-content: space-around;
   align-items: center;
 
-  .textBlock {
 
-  }
 
   .featuresBlock {
+    width: 1300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+
 
     .feature {
       width: 69px;
@@ -24,6 +23,7 @@
       color: #4074F8;
       text-align: center;
       border-radius: 50%;
+      padding-top: 20px;
     }
   }
 
