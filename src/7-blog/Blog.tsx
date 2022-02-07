@@ -42,7 +42,7 @@ export const Blog = () => {
                         Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...
                     </p>
                     <Button variant="primary">Read now</Button>
-                    <Button  variant="outline-secondary" style={{border: "0px"}}>Add to your bookmarks</Button>
+                    <Button  variant="outline-primary" style={{border: "0px"}}>Add to your bookmarks</Button>
                 </div>
             </div>
         </div>

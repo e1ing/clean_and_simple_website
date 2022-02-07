@@ -23,8 +23,8 @@ export const Features = () => {
                     <Card.Img variant="top" src={f_house} style={{width: "20px"}}/>
                     </div>
                     <Card.Body>
-                        <Card.Title>Overview</Card.Title>
-                        <Card.Text>
+                        <Card.Title className={s.title}>Overview</Card.Title>
+                        <Card.Text className={s.text}>
                             Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
                         </Card.Text>
                     </Card.Body>
@@ -35,8 +35,8 @@ export const Features = () => {
                     <Card.Img variant="top" src={f_folder} style={{width: "20px"}} />
                         </div>
                     <Card.Body>
-                        <Card.Title>Files</Card.Title>
-                        <Card.Text>
+                        <Card.Title className={s.title}>Files</Card.Title>
+                        <Card.Text className={s.text}>
                             No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.
                         </Card.Text>
                     </Card.Body>
@@ -46,8 +46,8 @@ export const Features = () => {
                     <Card.Img variant="top" src={f_chat} style={{width: "20px"}}/>
                     </div>
                     <Card.Body>
-                        <Card.Title>Meeting chats</Card.Title>
-                        <Card.Text>
+                        <Card.Title className={s.title}>Meeting chats</Card.Title>
+                        <Card.Text className={s.text}>
                             Vim ne tacimates neglegentur. Erat diceret omittam at est.
                         </Card.Text>
                     </Card.Body>
@@ -57,8 +57,8 @@ export const Features = () => {
                     <Card.Img variant="top" src={f_save} style={{width: "20px"}}/>
                     </div>
                     <Card.Body>
-                        <Card.Title>Save events</Card.Title>
-                        <Card.Text>
+                        <Card.Title className={s.title}>Save events</Card.Title>
+                        <Card.Text className={s.text}>
                             Nisl idque mel ea, nominati voluptatum.
                         </Card.Text>
                     </Card.Body>
