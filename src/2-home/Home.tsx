@@ -6,7 +6,7 @@ import {Row, Col, Container} from "react-bootstrap";
 
 export const Home = () => {
     return (
-        <Container>
+        <Container fluid={'md'}>
             <Row>
                 <Col className={s.home}>
                         <p className={cs.preliminaryText}>PLAN YOUR LIFE</p>

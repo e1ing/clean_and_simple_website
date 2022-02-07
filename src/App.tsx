@@ -13,7 +13,7 @@ import {Pricing} from "./10-pricing/Pricing";
 import {Subscription} from "./11-subscription/Subscription";
 import {Footer} from "./12-footer/Footer";
 
-function App() {
+const App = () => {
     return (
         <>
             <Header/>

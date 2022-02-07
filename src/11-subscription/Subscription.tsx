@@ -2,13 +2,14 @@ import React from 'react';
 import s from './Subscription.module.scss'
 import cs from "../0-common/styles/textStyles.module.scss";
 import InputGroup from 'react-bootstrap/esm/InputGroup';
-import {Button, FormControl} from "react-bootstrap";
+import {Button, Col, Container, FormControl, Row} from "react-bootstrap";
 
 
 export const Subscription = () => {
     return (
-        <div className={s.subscription}>
-            <div>
+        <Container fluid={'md'} className={s.subscription}>
+            <Row>
+            <Col>
             <h3 className={cs.mainText}>
                 Sign up for newsletter
             </h3>
@@ -16,8 +17,8 @@ export const Subscription = () => {
                 Cu qui soleat partiendo urbanitas.
                 Eum aperiri indoctum eu, homero alterum.
             </p>
-            </div>
-            <div>
+            </Col>
+            <Col>
 
                 <InputGroup className="mb-3">
                     <FormControl
@@ -29,7 +30,8 @@ export const Subscription = () => {
                         Button
                     </Button>
                 </InputGroup>
-            </div>
-        </div>
+            </Col>
+            </Row>
+        </Container>
     )
 }

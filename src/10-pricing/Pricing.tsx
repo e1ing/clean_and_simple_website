@@ -1,13 +1,11 @@
 import React from 'react';
 import s from "./Pricing.module.scss";
 import cs from "../0-common/styles/textStyles.module.scss";
-import {Button} from "react-bootstrap";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPlay} from "@fortawesome/free-solid-svg-icons/faPlay";
+import {Button, Container} from "react-bootstrap";
 
 export const Pricing = () => {
     return (
-        <div className={s.pricing}>
+        <Container fluid={'md'} className={s.pricing}>
             <p className={cs.preliminaryText} style={{color: '#FFFFFF'}}>PLAN YOUR LIFE</p>
             <h2 className={cs.mainText} style={{color: '#FFFFFF'}}>Get started now</h2>
             <p className={cs.text} style={{color: '#FFFFFF', width: '712px', textAlign: 'center'}}>
@@ -24,7 +22,7 @@ export const Pricing = () => {
                     Read documentation
                 </Button>{' '}
             </div>
-        </div>
+        </Container>
 
     )
 }

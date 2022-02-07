@@ -10,7 +10,7 @@ import {Row, Container, Col} from "react-bootstrap";
 
 export const Triggers = () => {
     return (
-        <Container>
+        <Container fluid={'md'}>
             <Row>
                 <Col className = {s.triggers}>
                         <img src={bitbucketPict}/>
