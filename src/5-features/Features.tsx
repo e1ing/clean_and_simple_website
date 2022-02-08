@@ -68,7 +68,7 @@ export const Features = () => {
 
             <Row>
                 <Col>
-                    <Button  variant="primary">Read more</Button>
+                    <Button variant="primary">Read more</Button>
                 </Col>
                 <Col>
                     <p className={cs.preliminaryText} style={{margin: "20px", textAlign: 'center', color: '#ADB3CB'}}>

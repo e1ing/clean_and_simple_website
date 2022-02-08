@@ -2,13 +2,14 @@
 .containerBlock {
   height: 80px;
   width: 1441px;
-
+  padding-top: 20px;
 
 .iconsBlock {
     display: flex;
     flex-direction: row;
     justify-content: end;
     align-items: center;
+
 
     .iconStyle {
       font-size: 16px;
