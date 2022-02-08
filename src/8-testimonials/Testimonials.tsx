@@ -20,9 +20,8 @@ export const Testimonials = () => {
 
                 <Col className={s.quote}>
                     <Row>
-                        <p className={cs.text}>Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam.
-                            Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
-                        </p>
+                        <span className={cs.text}>Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                        </span>
                     </Row>
                     <Row>
                         <Image src={avatar} style={{width: "100px"}} />

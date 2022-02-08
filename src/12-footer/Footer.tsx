@@ -11,9 +11,9 @@ export const Footer = () => {
                 <Header/>
             </Row>
             <Row>
-                <p className={cs.text} style={{fontSize: '12px'}}>
+                <span className={cs.text} style={{fontSize: '12px'}}>
                     Copyright © 2018 by Random site
-                </p>
+                </span>
             </Row>
         </Container>
     )

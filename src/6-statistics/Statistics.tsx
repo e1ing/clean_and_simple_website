@@ -11,13 +11,13 @@ export const Statistics = () => {
             <Row>
             <Col className={s.customers}>
                 <FontAwesomeIcon icon={faTachometerAlt}/>
-                <p className={s.counter}>89%</p>
-                <p className={s.description}>Customers who have increased their productivity</p>
+                <div className={s.counter}>89%</div>
+                <span className={s.description}>Customers who have increased their productivity</span>
             </Col>
             <Col className={s.users}>
                 <FontAwesomeIcon icon={faUsers}/>
-                <p className={s.counter}>3123</p>
-                <p className={s.description}>Users who have used our application</p>
+                <div className={s.counter}>3123</div>
+                <span className={s.description}>Users who have used our application</span>
             </Col>
             </Row>
         </Container>

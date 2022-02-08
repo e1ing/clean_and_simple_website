@@ -11,8 +11,9 @@ export const Blog = () => {
     return (
         <Container fluid={'md'} className={s.blog}>
             <Row>
-                <p className={cs.preliminaryText} style={{textAlign:'center'}}>OUR RESOURCES</p>
-                <h2 className={cs.mainText} style={{textAlign:'center', paddingBottom: '50px'}}>Start reading our blog</h2>
+                <p className={cs.preliminaryText} style={{textAlign: 'center'}}>OUR RESOURCES</p>
+                <h2 className={cs.mainText} style={{textAlign: 'center', paddingBottom: '50px'}}>Start reading our
+                    blog</h2>
             </Row>
             <Row className={s.blogBlock}>
                 <Col className={s.pictures}>
@@ -41,12 +42,14 @@ export const Blog = () => {
                 </Col>
 
                 <Col className={s.blogText}>
-                    <h3 className={s.blogTopic}>How to start planning</h3>
-                    <p className={cs.text}>Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam.
-                        Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
-                        Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut
-                        decore ...
-                    </p>
+                    <section>
+                        <h3 className={s.blogTopic}>How to start planning</h3>
+                        <p className={cs.text}>Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam.
+                            Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                            Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut
+                            decore ...
+                        </p>
+                    </section>
                     <Button variant="primary">Read now</Button>
                     <Button variant="outline-primary" style={{border: "0px"}}>Add to your bookmarks</Button>
                 </Col>
